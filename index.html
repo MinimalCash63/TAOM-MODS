@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAOM Mods</title>
+<meta name="description" content="TAOM AIO Compatibility Patch and TAOM Extra Loading Screens, two add-on mods for TAOM (Tales from the Age of Men) on Mount &amp; Blade II: Bannerlord 1.5.7, by MinimalCash63.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f1e4c6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#2a1f15" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<script src="releases.js" defer></script>
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="rule" viewBox="0 0 600 24">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.4">
+      <path d="M6 12 C60 10.5 120 13.5 180 11.8 S250 12.6 268 12"/>
+      <path d="M332 12 C360 11.4 420 13.6 480 11.6 S560 12.8 594 12"/>
+      <path d="M300 2.5 L310 12 L300 21.5 L290 12 Z"/>
+      <path d="M300 7 L305 12 L300 17 L295 12 Z" fill="currentColor"/>
+      <path d="M276 6 L282 18 M282 6 L276 18"/>
+      <path d="M318 6 L324 18 M318 18 L324 6"/>
+    </g>
+    <circle cx="258" cy="12" r="1.6" fill="currentColor"/><circle cx="342" cy="12" r="1.6" fill="currentColor"/>
+  </symbol>
+  <symbol id="corner" viewBox="0 0 60 60">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5">
+      <path d="M4 58 L4.5 20 C4 9 9.5 4.2 20 4.5 L58 4"/>
+      <path d="M11 50 L11.2 23 C11 15 15 11 23 11.2 L50 11"/>
+      <path d="M19 30 C17 22 22 17.5 30 19 C25 20 21 24 19 30 Z" fill="currentColor"/>
+      <circle cx="11" cy="56" r="1.4" fill="currentColor"/><circle cx="56" cy="11" r="1.4" fill="currentColor"/>
+    </g>
+  </symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-page" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6zM15 3v4h4M9 12h7M9 16h7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-quill" viewBox="0 0 24 24"><path d="M20 3C13 5 8 10 6 17l-2 4m16-18c-1 6-5 10-11 12m11-12-6 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<main class="page">
+  <svg class="corner tl" aria-hidden="true"><use href="#corner"/></svg>
+  <svg class="corner tr" aria-hidden="true"><use href="#corner"/></svg>
+  <svg class="corner bl" aria-hidden="true"><use href="#corner"/></svg>
+  <svg class="corner br" aria-hidden="true"><use href="#corner"/></svg>
+
+  <header class="masthead">
+    <svg class="compass" viewBox="0 0 100 100" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="1.2">
+        <circle cx="50" cy="50" r="44"/><circle cx="50" cy="50" r="38" stroke-dasharray="1.5 4"/>
+        <path d="M50 4 L56 44 L96 50 L56 56 L50 96 L44 56 L4 50 L44 44 Z"/>
+      </g>
+      <path d="M50 4 L56 44 L50 50 Z M96 50 L56 56 L50 50 Z M50 96 L44 56 L50 50 Z M4 50 L44 44 L50 50 Z" fill="currentColor"/>
+          </svg>
+
+    <svg class="seal" viewBox="0 0 120 120" role="img" aria-label="Wax seal with a quill">
+      <path d="M60 6C74 5 84 12 94 18C104 26 112 36 113 50C115 62 112 74 106 84C99 96 88 106 74 111C62 115 48 114 37 108C25 102 14 92 9 79C4 66 5 52 10 40C15 27 26 15 39 10C46 7 53 6 60 6Z" style="fill:var(--seal)"/>
+      <circle cx="60" cy="60" r="44" fill="none" style="stroke:var(--seal-text)" stroke-opacity=".55" stroke-width="2.2" stroke-dasharray="2 5"/>
+      <circle cx="60" cy="60" r="38" fill="none" style="stroke:var(--seal-text)" stroke-opacity=".7" stroke-width="1.4"/>
+      <path d="M87 23C70 27 54 43 45 72L51 70C55 58 63 48 74 40C66 50 60 59 56 68L62 65C72 53 82 39 87 23Z" style="fill:var(--seal-text)" fill-opacity=".85"/>
+      <path d="M87 23L37 93" fill="none" style="stroke:var(--seal-text)" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M33 95C37 93 41 94 44 96" fill="none" style="stroke:var(--seal-text)" stroke-width="1.6" stroke-linecap="round" stroke-opacity=".8"/>
+    </svg>
+    <h1>TAOM Mods</h1>
+    <p class="subtitle">Add-on mods for Tales from the Age of Men, by MinimalCash63</p>
+    <nav aria-label="Sections">
+      <a href="#aio">AIO Patch</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="#loading-screens">Loading Screens</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="#coop-tools">Co-op Tools</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="#github">On GitHub</a> <span class="sep" aria-hidden="true">&middot;</span> <a href="#credits">Credits</a>
+    </nav>
+  </header>
+
+  <svg class="rule" aria-hidden="true"><use href="#rule"/></svg>
+
+  <p>Two mods for TAOM (Tales from the Age of Men), the Lord of the Rings mod for Mount &amp; Blade II: Bannerlord 1.5.7. Each one is a separate module you add to Bannerlord's <code>Modules</code> folder next to TAOM.</p>
+
+
+  <figure class="plate">
+    <img src="assets/img/hialdir-03-1600.webp" srcset="assets/img/hialdir-03-800.webp 800w, assets/img/hialdir-03-1600.webp 1600w" sizes="(max-width: 880px) 100vw, 880px" width="1600" height="667" alt="A horned rider leads an army across hills at sunset">
+    <figcaption>Picture by Hialdir</figcaption>
+  </figure>
+
+  <section id="aio" aria-labelledby="aio-title">
+    <p class="kicker">Chapter I</p>
+    <h2 id="aio-title">TAOM AIO Compatibility Patch</h2>
+    <p class="meta"><span data-version="aio">Latest version</span> &middot; Bannerlord 1.5.7 &middot; TAOM 2.0.41 or newer</p>
+
+    <p class="lead">Makes popular Bannerlord mods work with TAOM 2.0.41 or newer on Bannerlord 1.5.7, in single player and co-op. It doesn't edit or replace those mods; install them from their own pages.</p>
+    <p>Each mod has one switch in Mod Options (MCM), on the "TAOM AIO Compatibility Patch" page. A switch only does something when its mod is ticked. Most need a restart; the big-battle settings apply from the next battle.</p>
+
+    <div class="actions">
+      <a class="btn primary" data-download="aio" href="https://github.com/MinimalCash63/TAOM-AIO-Compat/releases/latest"><svg aria-hidden="true"><use href="#i-down"/></svg><span>Download</span></a>
+      <a class="btn" href="https://github.com/MinimalCash63/TAOM-AIO-Compat"><svg aria-hidden="true"><use href="#i-page"/></svg>GitHub page</a>
+      <a class="btn" href="https://github.com/MinimalCash63/TAOM-AIO-Compat/issues"><svg aria-hidden="true"><use href="#i-quill"/></svg>Report a bug</a>
+    </div>
+    <p class="small">Also under <a href="https://github.com/MinimalCash63/TAOM-AIO-Compat/releases/latest">Releases</a>. The zip holds the <code>TAOM-AIO-Compat</code> folder. v1.5.23 and v1.5.24 have not been played in game yet.</p>
+
+    <h3>Install</h3>
+    <ol>
+      <li>Install TAOM and the mods you want from their own pages.</li>
+      <li>Put the <code>TAOM-AIO-Compat</code> folder from the zip into Bannerlord's <code>Modules</code> folder.</li>
+      <li>In the launcher, tick "TAOM AIO Compatibility Patch" right after TAOM, above the mods it covers.</li>
+    </ol>
+    <p>Not showing in the launcher? The folder is probably one level too deep. <code>Modules\TAOM-AIO-Compat</code> must hold <code>SubModule.xml</code> and <code>bin</code> directly.</p>
+
+    <h3>Good to know</h3>
+    <ul>
+      <li>Libraries: TAOM 2.0.41 provides Harmony, ButterLib, UIExtenderEx and Mod Configuration Menu itself. Keep its four library entries ticked, right after TAOM Dependencies and above Native. Don't install separate copies or the old Nexus dependency patch.</li>
+      <li>Co-op: every player needs the same version of this module, the same mods and the same switches. Limitless, its big-battle options, Diplomacy, AI Influence and Fourberie are single player only; untick them before co-op.</li>
+      <li>RBM is not covered. Its prices and gold amounts don't fit TAOM's. Untick RBM before co-op.</li>
+      <li>RTS Camera: you don't need it with TAOM unless another mod requires it. TAOM has its own commander's camera (Seat of Seeing) and order system (Marshal's Word).</li>
+    </ul>
+
+    <details>
+      <summary>What each switch does</summary>
+      <ul>
+        <li>Retinues: its Troops button on TAOM's map bar, co-op guards, and its editor button on TAOM's encyclopedia pages.</li>
+        <li>Hold the Line: its Depth morale works under TAOM, with a faster cavalry check for big battles.</li>
+        <li>Bodyguards: no crash entering towns, castles and villages; its button on TAOM's hero page.</li>
+        <li>TAOM Voices: lets it start on Bannerlord 1.5.7 in single player.</li>
+        <li>Xorberax's Legacy: TAOM's trolls, mumakil, spiders and Sauron keep TAOM's own hit rules.</li>
+        <li>Improved Garrisons: TAOM's party, food and money rules stay in charge, with its garrison costs on top.</li>
+        <li>Dual Wield: TAOM's dual-wielding troops with a corrected troop list; no separate Dual Wield - TAOM module needed.</li>
+        <li>Dismemberment Plus: dismemberment that fits TAOM's races; creatures are never cut.</li>
+        <li>Party Quality: doesn't reveal parties that TAOM's Hidden Hosts keeps hidden.</li>
+        <li>Limitless (single player): fewer crashes at the start of big battles, battle-size and first-wave settings, formation and reinforcement options, and keeps TAOM's creature mounts on the field.</li>
+        <li>TAOM escape menu: every button fits in the pause menu.</li>
+        <li>Diplomacy (single player): Diplomacy works inside TAOM's diplomacy rules; its civil wars are off.</li>
+        <li>AI Influence (single player): doesn't cancel TAOM's alliances and wars, gives it a Middle-earth world, and stops its fief and clan moves.</li>
+        <li>Fourberie (single player): guards against errors with TAOM's races and items; its recruit button offers TAOM troops.</li>
+        <li>TAOM item names: an item's culture tag comes first, e.g. "[Mordor] Fine Uruk Sword VI".</li>
+        <li>Tier Visual: weighted troops (&times;2, &times;3) keep their tier colour in the party screen.</li>
+        <li>Culture tags on troop names: TAOM's caravan troops, militia and spider riders get a culture tag, e.g. "[Erebor] Caravan Guard".</li>
+      </ul>
+      <p>The full tested load order, known issues and planned mods are on the <a href="https://github.com/MinimalCash63/TAOM-AIO-Compat">GitHub page</a>.</p>
+    </details>
+
+    <p class="note"><strong>Reporting a bug:</strong> open an issue with your mod list, single player or co-op, and <code>Documents\Mount and Blade II Bannerlord\Logs\taom_aio_compat.log</code> renamed to <code>.txt</code>. Remove your Steam id and user name first.</p>
+  </section>
+
+
+  <figure class="plate">
+    <img src="assets/img/hialdir-02-1600.webp" srcset="assets/img/hialdir-02-800.webp 800w, assets/img/hialdir-02-1600.webp 1600w" sizes="(max-width: 880px) 100vw, 880px" width="1600" height="667" loading="lazy" alt="Archers on a castle wall look down on an army climbing a green hillside">
+    <figcaption>Picture by Hialdir</figcaption>
+  </figure>
+
+  <section id="loading-screens" aria-labelledby="ls-title">
+    <p class="kicker">Chapter II</p>
+    <h2 id="ls-title">TAOM Extra Loading Screens</h2>
+    <p class="meta"><span data-version="ls">Latest version</span> &middot; Bannerlord 1.5.7 &middot; TAOM 2.0.41</p>
+
+    <p class="lead">Adds extra loading screen pictures to TAOM. TAOM's own loading pictures stay; the new ones are shown among them, picked at random like TAOM's.</p>
+    <p>All 30 pictures are in-game screenshots by 15 artists, taken from the community's screenshots in TAOM's official Discord. In game, each picture carries its artist's name in the bottom right corner. The pictures on this page are shown without it, with the artist named underneath.</p>
+
+    <div class="actions">
+      <a class="btn primary" data-download="ls" href="https://github.com/MinimalCash63/TAOM-Extra-Loading-Screens/releases/latest"><svg aria-hidden="true"><use href="#i-down"/></svg><span>Download</span></a>
+      <a class="btn" href="https://github.com/MinimalCash63/TAOM-Extra-Loading-Screens"><svg aria-hidden="true"><use href="#i-page"/></svg>GitHub page</a>
+      <a class="btn" href="https://github.com/MinimalCash63/TAOM-Extra-Loading-Screens/issues"><svg aria-hidden="true"><use href="#i-quill"/></svg>Report a problem</a>
+    </div>
+    <p class="small">Also under <a href="https://github.com/MinimalCash63/TAOM-Extra-Loading-Screens/releases/latest">Releases</a>. The zip is about 116 MB and holds the <code>TAOM-ExtraLoadingScreens</code> folder.</p>
+
+    <h3>Install</h3>
+    <ol>
+      <li>Download the zip.</li>
+      <li>Copy the <code>TAOM-ExtraLoadingScreens</code> folder into Bannerlord's <code>Modules</code> folder. If Windows' Extract All made an extra folder around it, copy the inner one.</li>
+      <li>In the launcher, tick "TAOM Extra Loading Screens". It loads after TAOM; its place below TAOM does not matter.</li>
+    </ol>
+
+    <h3>Good to know</h3>
+    <ul>
+      <li>The pictures show only while TAOM's own setting "Themed Loading Screens" is on (Mod Options &gt; TAOM - Tales From the Age of Men &gt; Menus &amp; Loading Screens; on by default).</li>
+      <li>Co-op: loading screens are drawn on each player's own PC; nothing is shared. Either every player ticks this module or nobody does.</li>
+      <li>To remove it, untick it in the launcher or delete the folder. Saves are not affected.</li>
+    </ul>
+
+    <p class="note"><strong>Reporting a problem:</strong> open an issue, say which TAOM version you use and attach <code>Documents\Mount and Blade II Bannerlord\Logs\taom_extra_loading_screens.log</code>. If a picture is yours and you want it changed or removed, open an issue too.</p>
+  </section>
+
+
+  <figure class="plate">
+    <img src="assets/img/linden-02-1600.webp" srcset="assets/img/linden-02-800.webp 800w, assets/img/linden-02-1600.webp 1600w" sizes="(max-width: 880px) 100vw, 880px" width="1600" height="667" loading="lazy" alt="A war elephant carrying a tower crosses a hazy plain">
+    <figcaption>Picture by Linden</figcaption>
+  </figure>
+
+  <section id="coop-tools" aria-labelledby="ct-title">
+    <p class="kicker">Chapter III</p>
+    <h2 id="ct-title">Coodsz TAOM Tools</h2>
+    <p class="meta">Coodsz TAOM Tools by Coodsz, with contributions from MinimalCash63 and Haterade</p>
+
+    <p class="lead">A client launcher and a dedicated server tool for playing TAOM in Bannerlord Co-op with friends. They are Coodsz's tools: get them, their instructions and their release notes from his page, and report problems there.</p>
+    <p>Each release says which Bannerlord, Co-op and TAOM versions it works with.</p>
+
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/Coodsz/Coodsz-TAOM/releases/latest"><svg aria-hidden="true"><use href="#i-down"/></svg>Latest release</a>
+      <a class="btn" href="https://github.com/Coodsz/Coodsz-TAOM"><svg aria-hidden="true"><use href="#i-page"/></svg>Coodsz-TAOM on GitHub</a>
+    </div>
+  </section>
+
+  <figure class="plate">
+    <img src="assets/img/spaceguy-02-1600.webp" srcset="assets/img/spaceguy-02-800.webp 800w, assets/img/spaceguy-02-1600.webp 1600w" sizes="(max-width: 880px) 100vw, 880px" width="1600" height="667" loading="lazy" alt="The Witch-king rides before a dark army">
+    <figcaption>Picture by SpaceGuy</figcaption>
+  </figure>
+
+  <section id="github" aria-labelledby="gh-title">
+    <h2 id="gh-title">On GitHub</h2>
+    <p class="meta">Each project's own page, with its full README, releases and issues</p>
+    <div class="cards">
+      <a class="card" href="https://github.com/MinimalCash63/TAOM-AIO-Compat"><span class="card-title">TAOM AIO Compatibility Patch</span><span class="card-sub">MinimalCash63/TAOM-AIO-Compat</span></a>
+      <a class="card" href="https://github.com/MinimalCash63/TAOM-Extra-Loading-Screens"><span class="card-title">TAOM Extra Loading Screens</span><span class="card-sub">MinimalCash63/TAOM-Extra-Loading-Screens</span></a>
+      <a class="card" href="https://github.com/Coodsz/Coodsz-TAOM"><span class="card-title">Coodsz TAOM Tools</span><span class="card-sub">Coodsz/Coodsz-TAOM</span></a>
+    </div>
+  </section>
+
+
+  <figure class="plate">
+    <img src="assets/img/sid-01-1600.webp" srcset="assets/img/sid-01-800.webp 800w, assets/img/sid-01-1600.webp 1600w" sizes="(max-width: 880px) 100vw, 880px" width="1600" height="667" loading="lazy" alt="A vast army gathers in a cold mountain valley">
+    <figcaption>Picture by sid7116</figcaption>
+  </figure>
+
+  <section id="credits" class="credits" aria-labelledby="cr-title">
+    <p class="kicker">Appendix</p>
+    <h2 id="cr-title">Credits and licences</h2>
+
+    <h3>TAOM AIO Compatibility Patch</h3>
+    <p>By MinimalCash63. It covers these mods; none of their files are included, apart from the Dual Wield - TAOM troop list, used with permission.</p>
+    <ul>
+      <li>Retinues by bolaft</li>
+      <li>TAOM compatibility patches by Theb0yys: the Xorberax's Legacy, AI Influence and Fourberie switches are based on his patches, used with his permission</li>
+      <li>Hold the Line - Infantry AI by UirosRios</li>
+      <li>Bodyguards - Companion Escort Overhaul by Exiur, based on Bodyguards by carbon198</li>
+      <li>Voices of the Age of Men by Theb0yys</li>
+      <li>Xorberax's Legacy and Dismemberment Plus by TheSchwarz1, original mods by Xorberax, used with his permission</li>
+      <li>Improved Garrisons by Sidies</li>
+      <li>Party Quality by ormuszeus</li>
+      <li>Limitless by BlocTheWorker, used with his permission</li>
+      <li>Diplomacy by the Diplomacy Team</li>
+      <li>AI Influence by MFive</li>
+      <li>Fourberie by Spinozart1</li>
+      <li>BattleSize Resized by Vombora</li>
+      <li>Dual Wield and Dual Wield - TAOM by the TAOM mod developers</li>
+      <li>Tier Visual by Alex822007</li>
+      <li>Bannerlord Co-op by the Bannerlord Co-op team</li>
+    </ul>
+    <p>Licence: free to use, ask to copy. Use it in your own games, single player and co-op. Don't re-upload it or share changed copies without permission. See its <a href="https://github.com/MinimalCash63/TAOM-AIO-Compat/blob/main/LICENSE">LICENSE</a>. Links to each mod's own page are in the <a href="https://github.com/MinimalCash63/TAOM-AIO-Compat#credits">README</a>.</p>
+
+    <h3>TAOM Extra Loading Screens</h3>
+    <p>Module by MinimalCash63. Loading screen art by Hialdir; Linden; Caveman; инсайт (insit7151); sid7116; Khamzra Hamûlid, the Two-Crowned; SpaceGuy; Sleepy; Linus; TimeAndSpace; Elendil the Tall; Kysaro; Hircine; TukTuk; Beregond "le Fidèle". The artists posted these pictures in TAOM's official Screenshots channel on Discord. Loading window and picture loader by the TAOM team (loading window design by Kysaro); this module only adds pictures to it.</p>
+    <p>Licence: free to use, ask to copy. The pictures belong to their artists. See its <a href="https://github.com/MinimalCash63/TAOM-Extra-Loading-Screens/blob/main/LICENSE">LICENSE</a>.</p>
+
+    <h3>This page</h3>
+    <p>Pictures by Hialdir, Linden, SpaceGuy, sid7116 and TimeAndSpace, from TAOM Extra Loading Screens. They belong to their artists. Fonts: IM Fell English and IM Fell English SC by Igino Marini, EB Garamond by the EB Garamond Project Authors, all under the SIL Open Font License 1.1.</p>
+    <p>Coodsz TAOM Tools belong to Coodsz and come under his own licence (LICENSE.txt in each release).</p>
+  </section>
+
+
+  <figure class="plate">
+    <img src="assets/img/timeandspace-01-1600.webp" srcset="assets/img/timeandspace-01-800.webp 800w, assets/img/timeandspace-01-1600.webp 1600w" sizes="(max-width: 880px) 100vw, 880px" width="1600" height="667" loading="lazy" alt="Riders in green charge across a plain towards a white city">
+    <figcaption>Picture by TimeAndSpace</figcaption>
+  </figure>
+
+  <footer>
+    <svg class="rule" aria-hidden="true"><use href="#rule"/></svg>
+    <p>TAOM (Tales from the Age of Men) belongs to its team. These are fan-made add-ons, not made by the TAOM team.</p>
+    <p>Mount &amp; Blade II: Bannerlord belongs to TaleWorlds Entertainment. The Lord of the Rings and its names belong to their owners. This site is not affiliated with any of them.</p>
+    <p>Page updated 23 November 2026.</p>
+  </footer>
+</main>
+
+</body>
+</html>
