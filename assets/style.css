@@ -232,3 +232,7 @@ footer p { margin: .35rem 0; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } summary::before { transition: none; } }
 @media print { body { background: #fff; padding: 0; } .page { box-shadow: none; } figure.plate img { filter: none; } }
+
+.tally { margin-top: -.2rem; }
+.tally-note { font-size: .88rem; }
+[hidden] { display: none !important; }
