@@ -4,7 +4,7 @@
 (function () {
   // GoatCounter site code. Empty = no visit counting, no "Visits" line, no privacy note.
   // After sign-up at goatcounter.com put the code here, e.g. "taom-mods".
-  var GOATCOUNTER = "";
+  var GOATCOUNTER = "minimalcash63";
 
   var mods = {
     aio: { repo: "MinimalCash63/TAOM-AIO-Compat", zip: "TAOM-AIO-Compat-", count: /^TAOM-AIO-Compat-.*\.zip$/ },
