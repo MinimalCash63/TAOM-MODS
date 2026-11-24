@@ -152,10 +152,6 @@ li::marker { color: var(--rule); }
 ol.load-order { columns: 2 18rem; column-gap: 2.4rem; padding-left: 2rem; margin: 1rem 0; }
 ol.load-order li { break-inside: avoid; }
 ol.load-order .ver { color: var(--ink-soft); font-size: .92em; margin-left: .3em; white-space: nowrap; }
-figure.shot { margin: 1.2rem 0; position: relative; left: 50%; transform: translateX(-50%); width: min(900px, calc(100% + 128px)); }
-@media (max-width: 640px) { figure.shot { left: auto; transform: none; width: 100%; } }
-figure.shot img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
-figure.shot figcaption { text-align: center; font-style: italic; font-size: .95rem; color: var(--ink-soft); margin-top: .4rem; }
 code { font-family: Consolas, "Courier New", monospace; font-size: .88em; background: rgba(120,80,30,.12); padding: .05em .3em; border-radius: 2px; overflow-wrap: anywhere; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 a:hover { text-decoration-thickness: 2px; }
